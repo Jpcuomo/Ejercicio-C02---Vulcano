@@ -33,13 +33,10 @@
             lblFahrenheit1 = new Label();
             lblCelsius1 = new Label();
             lblKelvin1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            btnFahrenheit = new Button();
+            tbxFahrenheit = new TextBox();
+            tbxCelsius = new TextBox();
+            tbxKelvin = new TextBox();
             imgIconos = new ImageList(components);
-            btnCelsius = new Button();
-            btnKelvin = new Button();
             label1 = new Label();
             tbxKelvinAFahrenheit = new TextBox();
             tbxCelsiusAFahrenheit = new TextBox();
@@ -52,6 +49,12 @@
             tbxFahrenheitAKelvin = new TextBox();
             label2 = new Label();
             label3 = new Label();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // lblFahrenheit1
@@ -81,36 +84,29 @@
             lblKelvin1.TabIndex = 2;
             lblKelvin1.Text = "Kelvin";
             // 
-            // textBox1
+            // tbxFahrenheit
             // 
-            textBox1.Location = new Point(94, 31);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 3;
+            tbxFahrenheit.Location = new Point(94, 31);
+            tbxFahrenheit.Name = "tbxFahrenheit";
+            tbxFahrenheit.Size = new Size(125, 27);
+            tbxFahrenheit.TabIndex = 3;
+            tbxFahrenheit.TextChanged += tbxFahrenheit_TextChanged;
             // 
-            // textBox2
+            // tbxCelsius
             // 
-            textBox2.Location = new Point(94, 64);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 4;
+            tbxCelsius.Location = new Point(94, 64);
+            tbxCelsius.Name = "tbxCelsius";
+            tbxCelsius.Size = new Size(125, 27);
+            tbxCelsius.TabIndex = 4;
+            tbxCelsius.TextChanged += tbxCelsius_TextChanged;
             // 
-            // textBox3
+            // tbxKelvin
             // 
-            textBox3.Location = new Point(94, 97);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 5;
-            // 
-            // btnFahrenheit
-            // 
-            btnFahrenheit.ImageIndex = 1;
-            btnFahrenheit.ImageList = imgIconos;
-            btnFahrenheit.Location = new Point(225, 30);
-            btnFahrenheit.Name = "btnFahrenheit";
-            btnFahrenheit.Size = new Size(94, 29);
-            btnFahrenheit.TabIndex = 6;
-            btnFahrenheit.UseVisualStyleBackColor = true;
+            tbxKelvin.Location = new Point(94, 97);
+            tbxKelvin.Name = "tbxKelvin";
+            tbxKelvin.Size = new Size(125, 27);
+            tbxKelvin.TabIndex = 5;
+            tbxKelvin.TextChanged += tbxKelvin_TextChanged;
             // 
             // imgIconos
             // 
@@ -121,30 +117,10 @@
             imgIconos.Images.SetKeyName(1, "281.png");
             imgIconos.Images.SetKeyName(2, "291.png");
             // 
-            // btnCelsius
-            // 
-            btnCelsius.ImageIndex = 1;
-            btnCelsius.ImageList = imgIconos;
-            btnCelsius.Location = new Point(225, 63);
-            btnCelsius.Name = "btnCelsius";
-            btnCelsius.Size = new Size(94, 29);
-            btnCelsius.TabIndex = 7;
-            btnCelsius.UseVisualStyleBackColor = true;
-            // 
-            // btnKelvin
-            // 
-            btnKelvin.ImageIndex = 1;
-            btnKelvin.ImageList = imgIconos;
-            btnKelvin.Location = new Point(225, 97);
-            btnKelvin.Name = "btnKelvin";
-            btnKelvin.Size = new Size(94, 29);
-            btnKelvin.TabIndex = 8;
-            btnKelvin.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(349, 8);
+            label1.Location = new Point(306, 8);
             label1.Name = "label1";
             label1.Size = new Size(77, 20);
             label1.TabIndex = 9;
@@ -152,63 +128,63 @@
             // 
             // tbxKelvinAFahrenheit
             // 
-            tbxKelvinAFahrenheit.Location = new Point(325, 97);
+            tbxKelvinAFahrenheit.Location = new Point(282, 97);
             tbxKelvinAFahrenheit.Name = "tbxKelvinAFahrenheit";
             tbxKelvinAFahrenheit.Size = new Size(125, 27);
             tbxKelvinAFahrenheit.TabIndex = 12;
             // 
             // tbxCelsiusAFahrenheit
             // 
-            tbxCelsiusAFahrenheit.Location = new Point(325, 64);
+            tbxCelsiusAFahrenheit.Location = new Point(282, 64);
             tbxCelsiusAFahrenheit.Name = "tbxCelsiusAFahrenheit";
             tbxCelsiusAFahrenheit.Size = new Size(125, 27);
             tbxCelsiusAFahrenheit.TabIndex = 11;
             // 
             // tbxFahrenheitAFahrenheit
             // 
-            tbxFahrenheitAFahrenheit.Location = new Point(325, 31);
+            tbxFahrenheitAFahrenheit.Location = new Point(282, 31);
             tbxFahrenheitAFahrenheit.Name = "tbxFahrenheitAFahrenheit";
             tbxFahrenheitAFahrenheit.Size = new Size(125, 27);
             tbxFahrenheitAFahrenheit.TabIndex = 10;
             // 
             // tbxKelvinACelsius
             // 
-            tbxKelvinACelsius.Location = new Point(456, 97);
+            tbxKelvinACelsius.Location = new Point(413, 97);
             tbxKelvinACelsius.Name = "tbxKelvinACelsius";
             tbxKelvinACelsius.Size = new Size(125, 27);
             tbxKelvinACelsius.TabIndex = 15;
             // 
             // tbxCelsiusACelsius
             // 
-            tbxCelsiusACelsius.Location = new Point(456, 64);
+            tbxCelsiusACelsius.Location = new Point(413, 64);
             tbxCelsiusACelsius.Name = "tbxCelsiusACelsius";
             tbxCelsiusACelsius.Size = new Size(125, 27);
             tbxCelsiusACelsius.TabIndex = 14;
             // 
             // tbxFahrenheitACelsius
             // 
-            tbxFahrenheitACelsius.Location = new Point(456, 31);
+            tbxFahrenheitACelsius.Location = new Point(413, 31);
             tbxFahrenheitACelsius.Name = "tbxFahrenheitACelsius";
             tbxFahrenheitACelsius.Size = new Size(125, 27);
             tbxFahrenheitACelsius.TabIndex = 13;
             // 
             // tbxKelvinAKelvin
             // 
-            tbxKelvinAKelvin.Location = new Point(587, 96);
+            tbxKelvinAKelvin.Location = new Point(544, 96);
             tbxKelvinAKelvin.Name = "tbxKelvinAKelvin";
             tbxKelvinAKelvin.Size = new Size(125, 27);
             tbxKelvinAKelvin.TabIndex = 18;
             // 
             // tbxCelsiusAKelvin
             // 
-            tbxCelsiusAKelvin.Location = new Point(587, 63);
+            tbxCelsiusAKelvin.Location = new Point(544, 63);
             tbxCelsiusAKelvin.Name = "tbxCelsiusAKelvin";
             tbxCelsiusAKelvin.Size = new Size(125, 27);
             tbxCelsiusAKelvin.TabIndex = 17;
             // 
             // tbxFahrenheitAKelvin
             // 
-            tbxFahrenheitAKelvin.Location = new Point(587, 30);
+            tbxFahrenheitAKelvin.Location = new Point(544, 30);
             tbxFahrenheitAKelvin.Name = "tbxFahrenheitAKelvin";
             tbxFahrenheitAKelvin.Size = new Size(125, 27);
             tbxFahrenheitAKelvin.TabIndex = 16;
@@ -216,7 +192,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(492, 8);
+            label2.Location = new Point(449, 8);
             label2.Name = "label2";
             label2.Size = new Size(54, 20);
             label2.TabIndex = 19;
@@ -225,17 +201,50 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(624, 8);
+            label3.Location = new Point(581, 8);
             label3.Name = "label3";
             label3.Size = new Size(49, 20);
             label3.TabIndex = 20;
             label3.Text = "Kelvin";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources._281;
+            pictureBox1.Location = new Point(241, 35);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(16, 16);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 21;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources._281;
+            pictureBox2.Location = new Point(241, 70);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(16, 16);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 22;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources._281;
+            pictureBox3.Location = new Point(241, 105);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(16, 16);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 23;
+            pictureBox3.TabStop = false;
+            // 
             // FrmConversorTemp
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(722, 137);
+            ClientSize = new Size(681, 137);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(tbxKelvinAKelvin);
@@ -248,12 +257,9 @@
             Controls.Add(tbxCelsiusAFahrenheit);
             Controls.Add(tbxFahrenheitAFahrenheit);
             Controls.Add(label1);
-            Controls.Add(btnKelvin);
-            Controls.Add(btnCelsius);
-            Controls.Add(btnFahrenheit);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(tbxKelvin);
+            Controls.Add(tbxCelsius);
+            Controls.Add(tbxFahrenheit);
             Controls.Add(lblKelvin1);
             Controls.Add(lblCelsius1);
             Controls.Add(lblFahrenheit1);
@@ -266,6 +272,9 @@
             Text = "Conversor de temperaturas";
             TopMost = true;
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -275,12 +284,9 @@
         private Label lblFahrenheit1;
         private Label lblCelsius1;
         private Label lblKelvin1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private Button btnFahrenheit;
-        private Button btnCelsius;
-        private Button btnKelvin;
+        private TextBox tbxFahrenheit;
+        private TextBox tbxCelsius;
+        private TextBox tbxKelvin;
         private Label label1;
         private TextBox tbxKelvinAFahrenheit;
         private TextBox tbxCelsiusAFahrenheit;
@@ -294,5 +300,8 @@
         private Label label2;
         private Label label3;
         private ImageList imgIconos;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
     }
 }

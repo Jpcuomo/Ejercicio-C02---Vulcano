@@ -8,7 +8,7 @@ namespace UnidadesDeTemperatura
 {
     public class Fahrenheit
     {
-        public double Temperatura {  get; }
+        public double Temperatura { get; }
 
         public Fahrenheit(double temperatura)
         {
@@ -79,5 +79,10 @@ namespace UnidadesDeTemperatura
         {
             return f.Temperatura - ((Fahrenheit)k).Temperatura;
         }
+
+        //public override string ToString()
+        //{
+        //    return Temperatura.ToString("F2");
+        //}
     }
 }

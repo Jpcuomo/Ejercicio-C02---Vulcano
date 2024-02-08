@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
+  <!-- 
     Microsoft ResX Schema 
-
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,47 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="imgIconos.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="imgIconos.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
-        LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAmU3lzdGVtLldpbmRvd3MuRm9ybXMu
-        SW1hZ2VMaXN0U3RyZWFtZXIBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAvAcAAAJNU0Z0AUkBTAIBAQMB
-        AAHIAQAByAEAARABAAEQAQAD/wEAASEBAAj/AUIBTQE2BwABNgMAASgDAAFAAwABEAMAAQEBAAEgBgAB
-        ECIAA00BkwMAAf8DXgHtLAADVwG5GAADXQHUKAADFAEbAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0wB
-        9VwAA1gBuAMAAf8DAAH/AwAB/wNMAfUnAAH/AwAB/wMAAf8TAAH/AwAB/wNdAewgAANfAfEDAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DMwFRVAADWwHeAwAB/wMAAf8DAAH/AwAB/wNfAfEc
-        AANgAeMDAAH/AwAB/wMAAf8DAAH/CwAB/wMAAf8DAAH/AwAB/wNeAdIYAAMrAfwDAAH/AwAB/wMAAf8D
-        AAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMxAU5UAANEAXgDAAH/AwAB/wMAAf8DAAH/A2EB
-        5hwAA1EB9wMAAf8DAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/A1MBphAAA0MBdwMAAf8DAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DQQH5AwAB/wMAAf8DAAH/AwAB/wMAAf9YAAMGAQgDAAH/AwAB/wMAAf8D
-        AAH/A10BzhwAA1UBrwMAAf8DAAH/AwAB/wNbAfAIAAMZAf4DAAH/AwAB/wMAAf8DOQFeDwAB/wMAAf8D
-        AAH/AxkB/gQABAEDAAH/A1YBtgQAAykBPgMAAf8DAAH/AwAB/wMAAf8DTAH1XwAB/wMAAf8DAAH/AwAB
-        /wNRAaQcAAMmATkDAAH/AwAB/wMAAf8DVQGxCAADWQHGAwAB/wMAAf8DAAH/AxUBHAQAAxUBHAMAAf8D
-        AAH/AwAB/wMAAf8DBAEFBAADBQEGAwAB/wgAAzoBYQMAAf8DAAH/AwAB/wMAAf9gAANbAdgDAAH/AwAB
-        /wMAAf8DNQFWHAAEAQMAAf8DAAH/AwAB/wMxAU4IAAMwAUsDAAH/AwAB/wMAAf8EAANYAbcDAAH/AwAB
-        /wMAAf8DAAH/AwAB/wM0AVQEAAMgAS0DAAH/AwYBCAQAA1UBsQMAAf8DAAH/AwAB/2QAAzUBVgMAAf8D
-        AAH/AwAB/wMIAQojAAH/AwAB/wMAAf8EAQgAAwYBCAMAAf8DAAH/AwAB/wMhAfsDAAH/AwAB/wMAAf8D
-        AAH/AwAB/wMAAf8DXgHSBAADSQGHAwAB/wM4AVwEAANMAfUDAAH/AwAB/2QAAzEBTQMAAf8DAAH/AwAB
-        /wMaASQjAAH/AwAB/wMAAf8DAwEECAADEQEWAwAB/wMAAf8DAAH/A14B3QMAAf8DAAH/AwAB/wMAAf8D
-        AAH/AwAB/wMJAQwHAAH/AwAB/wsAAf8DAAH/AwAB/2AAA1sB5AMAAf8DAAH/AwAB/wMYASEcAAMRARYD
-        AAH/AwAB/wMAAf8DCgENCAADTAGRAwAB/wMAAf8DAAH/BAADOAFcAwAB/wMAAf8DAAH/AwAB/wMAAf8L
-        AAH/A1kB7wsAAf8DAAH/AwAB/wMAAf9fAAH/AwAB/wMAAf8DAAH/AwYBCBwAA1EBngMAAf8DAAH/AwAB
-        /wMCAQMIAAMtAfoDAAH/AwAB/wMAAf8PAAH/AwAB/wMAAf8DWwHwCwAB/wNLAY0EAAMFAQYDAAH/AwAB
-        /wMAAf8DAAH/AwAB/1QAAysBQQMAAf8DAAH/AwAB/wMAAf8gAAMhAfsDAAH/AwAB/wMAAf8PAAH/AwAB
-        /wMAAf8DAAH/EAADWAHzAwAB/wMAAf8DAAH/AwkBDAMAAf8DAAH/AwAB/wMzAVIDAAH/AwAB/wMAAf8D
-        AAH/AwAB/wMUARtQAANbAeQDAAH/AwAB/wMAAf8DAAH/IwAB/wMAAf8DAAH/AwAB/wgAAw0BEQMAAf8D
-        AAH/AwAB/wNRAfcbAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8D
-        UwH0UwAB/wMAAf8DAAH/AwAB/wNYAfMgAANTAaoDAAH/AwAB/wMAAf8PAAH/AwAB/wMAAf8DWwHKIwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMrAfxUAANQAZoDAAH/AwAB/wNMAZEo
-        AAMhAfsDXgHdFwAB/wM2AVgoAANYAfMDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0MBdlwAA0YB
-        gQMHAQmAAAM2AVcDWwHYA0MB+ANYAbcDEQEWVAABQgFNAT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEF
-        AAGAFwAD/wEAAfEB/wHfAb8B8AEPAgAB4AH/AY8BHwHgAQMCAAHgAX8BBgEPAcABAQIAAfABPwGDAQcB
-        gAEBAgAB+AEfAcEBgwGEAUACAAH+AQ8B4AHBAQIBYAIAAf8BBwHwAWEBAQEQAgAB/wGDAfwBMAEAAYgC
-        AAH/AYMB/AEwAQABmAIAAf8BBwHwAWEBAwEwAgAB/gEPAeABwwGGAUACAAH4AT8BwwGHAYADAAHwAX8B
-        hgEPAcABAQIAAeAB/wEOAR8B4AEDAgAB4QH/AZ8BPwHwAQcCAAHzA/8B/AEfAgAL
-</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

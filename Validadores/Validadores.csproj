@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451.csproj" />
+  </ItemGroup>
+
 </Project>
